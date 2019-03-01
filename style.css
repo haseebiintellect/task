@@ -1,0 +1,98 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800);
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-section{
+    background-image: linear-gradient(to left, rgba(0, 178, 179, 0.1), #00b2b3);
+    padding:10px;
+    position: absolute;
+    z-index: 24;
+    width: 100%;
+}
+#header-section .primary-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+#header-section .header-nav ul{
+    list-style-type: none;
+    padding-left: 81px;
+}
+#header-section .header-nav ul li{
+    list-style-type: none;
+    padding-left: 0px;
+    float: left;
+    margin-right: 30px;
+
+}
+#header-section .header-nav ul li a{
+    text-decoration: none;
+    color:#fff;
+
+    font-size: 14px;
+}
+#header-section .main-wrapper{
+    display: flex;
+    padding-left: 64px;
+}
+#header-section .btn-wrapper{
+    padding-top:14px;
+}
+#header-section .cmn-btn{
+    padding:6px 24px;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-right:8px;
+}
+#header-section .btn-transparent{
+    border:1px solid #fff;
+    background-color: transparent;
+}
+#header-section .btn-dark{
+    background-color: #54585a;
+}
+#header-section .icon-wrapper{
+    padding-top:14px;
+    display: flex;
+}
+#header-section .icon-wrapper img{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+#leadership-hero{
+    background-image: url("bitmap.jpg");
+    height: 649px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+#leadership-hero .standard-section{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 70px;
+}
+#leadership-hero .standard-section h2{
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Adobe Caslon Pro";
+  font-size: 72px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+#leadership-hero 
+
+
+.standard-section p{
+    text-shadow: 0 0 16px #000000;
+  font-family: 'Avenir LT Std';
+  font-size: 19px;
+}
